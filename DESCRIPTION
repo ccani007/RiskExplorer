@@ -3,7 +3,8 @@ Type: Package
 Title: Cleaned and combined YRBS 2017, 2019 and 2021 data exploring Alcohol Use
 Version: 0.1.0
 Author: 
-    c(person(
+    c(
+    person(
         given  = "Catalina",
         family = "Cañizares", 
         email = "ccani007@fiu.edu", 
@@ -14,9 +15,10 @@ Author:
         given  = "Francisco",
         family = "Cardozo", 
         email = "foc9@miami.edu", 
-        role = c("aut", "cre"),
+        role = "aut",
         comment = c(ORCID = "0000-0002-1925-4954")
-      ))
+      )
+    )
 Maintainer: Catalina Canizares <ccani007@fiu.edu>
 Description: This package has been developed specifically for conducting a 
      ggplot workshop at the Social Work & Welfare Research (SWWR) 2024 

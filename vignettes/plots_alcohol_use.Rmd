@@ -21,11 +21,12 @@ knitr::opts_chunk$set(
 Having reviewed the fundamental principles of data visualization, including the best practices and pitfalls to avoid, we will now delve into practical applications. This segment of the workshop will employ real-world examples, demonstrating how to create impactful and effective visualizations using code.  
 We'll specifically focus on utilizing the ggplot2 package within R, a powerful tool for crafting clear and informative graphical representations of data.
 
-To begin, we will load the necessary libraries for our data analysis and visualization tasks. Our dataset is housed within the 'RiskExplorer' package, which we will access first. Additionally, we will utilize the 'tidyverse' package, renowned for its comprehensive suite of tools that streamline data cleaning and manipulation. Within 'tidyverse', we have 'ggplot2'.
+To begin, we will load the necessary libraries for our data analysis and visualization tasks. Our dataset is housed within the 'RiskExplorer' package, which we will access first. Additionally, we will utilize the 'dplyr' and 'ggplot2' packages.
 
 ```{r setup}
 library(RiskExplorer)
-library(tidyverse)
+library(dplyr)
+library(ggplot2)
 ```
 
 Now that we have loaded our packages, the next step is to bring in the data we are interested in analyzing.

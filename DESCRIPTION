@@ -2,7 +2,7 @@ Package: RiskExplorer
 Type: Package
 Title: Cleaned and combined YRBS 2017, 2019 and 2021 data exploring Alcohol Use
 Version: 0.1.0
-Author: 
+Authors@R: 
     c(
     person(
         given  = "Catalina",
